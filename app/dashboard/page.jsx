@@ -1,7 +1,11 @@
+import Card from "../ui/card/card"
+import styles from '../ui/dashboard/dashboard.module.css'
 const Dashboard = () => {
     return (
         <div>
-            Dashboard
+            <div className={styles.card}>
+                <Card />
+            </div>
         </div>
     )
 }
