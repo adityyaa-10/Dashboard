@@ -1,8 +1,8 @@
 import styles from './rightbar.module.css'
 const Rightbar = () => {
     return (
-        <div>
-
+        <div className={styles.container}>
+            Rightnav
         </div>
     )
 }

@@ -1,4 +1,100 @@
-/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/dashboard/card/card.module.css ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/ui/card/card.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************/
+.card_container__VHRl5 {
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    width: 100%;
+}
 
+.card_container__VHRl5:hover {
+    background-color: #2e374a;
+}
+
+.card_texts__kTdJw {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card_number__MO2U4 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card_detail__iDU7R {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.card_positive__Z81W_ {
+    color: lime;
+}
+
+.card_negative__tvdQz {
+    color: red;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/ui/chart/chart.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/ui/rightbar/rightbar.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/ui/transactions/transactions.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.transactions_container__5g_Ur {
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.transactions_title__3Qd1z {
+    margin-bottom: 20px;
+    font-weight: 200;
+    color: var(--textSoft);
+}
+
+.transactions_table__xvgz6 {
+    width: 100%;
+}
+
+.transactions_table__xvgz6 td {
+    padding: 10px;
+}
+
+.transactions_user__2OUxG {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.transactions_userImage__vXA2E {
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.transactions_status__9zd8m {
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14px;
+    color: white;
+}
+
+.transactions_pending__vRCvk {
+    background-color: #f7cb7375;
+}
+
+.transactions_done__uu6Lv {
+    background-color: #afd6ee75;
+}
+
+.transactions_cancelled__bOnby {
+    background-color: #f7737375;
+}
