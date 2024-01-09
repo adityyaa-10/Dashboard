@@ -1,0 +1,45 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/ui/products/addProduct/addProduct.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+.addProduct_container__PHjkP {
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.addProduct_form__DzBKE {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.addProduct_form__DzBKE input,
+.addProduct_form__DzBKE textarea,
+.addProduct_form__DzBKE select {
+    padding: 30px;
+    background-color: var(--bg);
+    color: var(--text);
+    border: 2px solid #2e374a;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.addProduct_form__DzBKE input,
+.addProduct_form__DzBKE select {
+    width: 45%;
+}
+
+.addProduct_form__DzBKE textarea {
+    width: 100%;
+}
+
+.addProduct_form__DzBKE button {
+    width: 100%;
+    padding: 30px;
+    background-color: teal;
+    color: var(--text);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
