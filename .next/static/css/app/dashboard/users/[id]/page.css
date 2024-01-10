@@ -1,0 +1,65 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/ui/users/singleUser/singleUser.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.singleUser_container__Z3EL9 {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.singleUser_infoContainer__nef1K {
+    flex: 1 1;
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: var(--textSoft);
+    height: max-content;
+}
+
+.singleUser_imgContainer__30xV2 {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.singleUser_formContainer__bCKF8 {
+    flex: 3 1;
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.singleUser_form__Stvf7 {
+    display: flex;
+    flex-direction: column;
+}
+
+.singleUser_form__Stvf7 input,
+.singleUser_form__Stvf7 textarea,
+.singleUser_form__Stvf7 select {
+    padding: 20px;
+    border: 2px solid #2e374a;
+    border-radius: 5px;
+    background-color: var(--bg);
+    color: var(--text);
+    margin: 10px 0px;
+}
+
+.singleUser_form__Stvf7 label {
+    font-size: 12px;
+}
+
+.singleUser_form__Stvf7 button {
+    width: 100%;
+    padding: 20px;
+    background-color: teal;
+    color: var(--text);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}

@@ -8,7 +8,7 @@ const ProductsPage = () => {
         <div className={styles.container}>
             <div className={styles.top}>
                 <Search placeholder="Search for a user..." />
-                <Link href="/dashboard/users/add">
+                <Link href="/dashboard/products/add">
                     <button className={styles.addButton}>Add New</button>
                 </Link>
             </div>
@@ -36,7 +36,7 @@ const ProductsPage = () => {
                         <td>72</td>
                         <td>
                             <div className={styles.buttons}>
-                                <Link href="/dashboard/users/edit">
+                                <Link href="/dashboard/products/edit">
                                     <button className={`${styles.button} ${styles.view} `}>View</button>
                                 </Link>
 
